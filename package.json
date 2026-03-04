@@ -1,0 +1,29 @@
+{
+  "name": "pw-p-lab-36342",
+  "version": "1.0.0",
+  "description": "my first API",
+  "homepage": "https://github.com/jeremiasrivarola/PW-P-LAB-36342#readme",
+  "bugs": {
+    "url": "https://github.com/jeremiasrivarola/PW-P-LAB-36342/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiasrivarola/PW-P-LAB-36342.git"
+  },
+  "license": "ISC",
+  "author": "jeremias",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14"
+  }
+}
